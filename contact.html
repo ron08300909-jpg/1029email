@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="填寫姓名、電話、電子信箱與聯絡內容，聯繫木光空間設計。">
+  <title>聯絡我們｜木光空間設計</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header"><div class="container navbar"><a class="brand" href="index.html" aria-label="木光空間設計首頁"><span class="brand-symbol">木</span><span>木光空間設計<small>MUGU DESIGN STUDIO</small></span></a><nav class="navlinks" aria-label="主要導覽"><a href="index.html">首頁</a><a href="about.html">公司介紹</a><a href="contact.html" aria-current="page">聯絡我們</a></nav></div></header>
+  <main>
+    <section class="page-banner"><div class="container"><div class="eyebrow">CONTACT US</div><h1>聯絡我們</h1><p>歡迎留下聯絡資訊與需求內容，讓我們有機會了解你的想法。</p></div></section>
+    <section class="section"><div class="container contact-grid">
+      <aside class="contact-info"><div class="eyebrow">GET IN TOUCH</div><h2>我們期待<br>聽見你的想法。</h2><p>請填寫右方表單，系統會將內容寄送到網站管理者設定的電子信箱。</p><div class="info-block"><strong>表單項目</strong>姓名／電話／EMAIL／聯絡內容</div><div class="info-block"><strong>提醒</strong>這是課堂練習網站，請勿傳送密碼或其他敏感資料。</div></aside>
+      <div class="form-panel"><h2>線上聯絡表單</h2><p class="form-hint">標示 * 為必填欄位。</p>
+        <!-- 重要：部署前，請把下面的 YOUR_EMAIL@example.com 換成自己的信箱。 -->
+        <form action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST">
+          <input type="hidden" name="_subject" value="【木光空間設計】新的網站聯絡表單">
+          <input type="hidden" name="_template" value="table">
+          <div class="field"><label for="name">姓名 *</label><input id="name" name="name" type="text" autocomplete="name" placeholder="請輸入姓名" required maxlength="100"></div>
+          <div class="field"><label for="phone">電話 *</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="請輸入聯絡電話" required maxlength="30"></div>
+          <div class="field"><label for="email">EMAIL *</label><input id="email" name="email" type="email" autocomplete="email" placeholder="example@email.com" required maxlength="254"></div>
+          <div class="field"><label for="message">聯絡內容 *</label><textarea id="message" name="message" placeholder="請輸入想詢問的內容" required maxlength="3000"></textarea></div>
+          <button type="submit" class="btn">寄送聯絡內容 ↗</button>
+          <p class="notice">使用第三方 FormSubmit 寄送；首次啟用必須先至收件信箱點選確認連結。</p>
+        </form>
+      </div>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-flex"><span>© 2026 木光空間設計｜課堂練習網站</span><span>HOME · ABOUT · CONTACT</span></div></footer>
+</body>
+</html>
